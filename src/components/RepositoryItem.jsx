@@ -3,7 +3,7 @@ export function RepositoryItem({ repository }) {
     <li>
       <strong>{repository?.name ?? "Forms"}</strong>
       <p>{repository?.description ?? "React Forms"}</p>
-      <a href={repository?.link}>Access Repository</a>
+      <a href={repository?.html_url}>Access Repository</a>
     </li>
   );
 }
